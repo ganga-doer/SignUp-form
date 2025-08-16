@@ -2,7 +2,7 @@ export default function SignupForm() {
   return (
     <div className="min-h-screen flex items-center justify-center bg">
       <div className="w-full max-w-md bg-black/30 backdrop-blur-md text-yellow-100 shadow-2xl rounded-2xl p-6">
-        <h2 className="text-2xl font-bold mb-4 text-center">Signup Form</h2>
+        <h2 className="text-2xl font-bold mb-4 text-center">Signup</h2>
         <form className="space-y-4">
           <label className="block">
             First Name
@@ -46,7 +46,7 @@ export default function SignupForm() {
             {" "}
             <p className="text-sm mt-2">
               Already have an account?{" "}
-              <a href="#" className="underline  text-amber-800">
+              <a href="/login" className="underline  text-amber-800">
                 Log in
               </a>
             </p>
